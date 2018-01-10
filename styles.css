@@ -1,0 +1,33 @@
+.header img {
+  float: left;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.profpic {
+  border-radius: 50px;
+  margin-left: 2.5%;
+
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+}
+
+.bio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+
+  margin-left: 2.5%;
+}
