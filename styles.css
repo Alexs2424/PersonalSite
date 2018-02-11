@@ -1,3 +1,23 @@
+body {
+  background-color: #fdfdfd;
+}
+
+hr {
+  width: 50%;
+  color: #333644;
+
+  margin-left: 8%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0074e4;
+}
+
 .header img {
   float: left;
 }
@@ -15,12 +35,63 @@
 }
 
 .name {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 72px;
+  color: #333644;
 
-  margin-top: 1.5%;
-  margin-left: 2.5%;
+  margin-top: 6%;
+  margin-left: 8%;
+}
+
+.worktitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333644;
+
+  margin-bottom: -0.5%;
+  margin-left: 8%;
+}
+
+.nh {
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+.nhlink {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #333644;
+  margin-top: 0%;
+  margin-left: 8%;
+}
+
+.nhicon {
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top: 1%;
+}
+
+.moneyicon {
+  border-radius: 20px;
+  margin-left: 6px;
+}
+
+.sunicon {
+    border-radius: 20px;
+    margin-left: 6px;
+}
+
+.cyhsicon {
+  border-radius: 20px;
+  margin-left: 6px;
+}
+
+.runicon {
+  border-radius: 20px;
+  margin-left: 6px;
 }
 
 .bio {
@@ -30,4 +101,29 @@
   line-height: 170%;
 
   margin-left: 2.5%;
+}
+
+.more {
+  color: #55B1EF;
+  font-size: 32px;
+}
+
+.social {
+  margin-top: 0%;
+}
+
+.linkedIn {
+  color: #0077B5;
+}
+
+.instagram {
+  color: #F89334;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.email {
+  color: #C02E3C;
 }
