@@ -1,0 +1,56 @@
+body {
+  background-color: #4E1987;
+  font-family: "motiva-sans";
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.nyu_subtitle {
+  color: #ffffff;
+  margin-left: 5%;
+  margin-top: -40px;
+}
+
+.text {
+  color: #fffff0;
+  margin-left: 5%;
+}
+
+.prototype {
+  color: #202229;
+  background-color: #fffff0;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  margin-left: 5%;
+}
+
+.list {
+  color: #fffff0;
+  margin-left: 5%;
+}
+
+.title {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0074e4;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 72px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
