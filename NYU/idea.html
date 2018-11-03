@@ -78,8 +78,27 @@
             to the App via RESTAPI asking only what I need and in the form of a JSON response. Google also has their transit API which is now<br />
             apart of the MTA database. <a href="http://datamine.mta.info/">Data Mine @ MTA</a> </p>
       <li>Oct 19</li>
+            <h2>Starting Use with GTFS</h2>
+            <p>This proved to be more difficult than I first thought. In order to get the mta data from their database it's delivered from protocols.<br />
+            They're kind of tricky to work with because they're not desinged for any specific language or framework. It also took a long time to get a response<br />
+            from the MTA regarding my registration key. I first signed up and looked at all the guides for working with the protocols. It's hard to understand <br />
+            so I went through the documentation and examples to understand how to work with the data.</p>
+            <img src="images/subwayLinesDocumenation.png" width="800px" height="831px" alt="subway lines documentation"/>
       <li>Oct 26</li>
+            <h2>Official API Key</h2>
+            <p>This week I recieved a key to gather real data from the Subway API. Each subway line gets new and individual data sets that are sent to my <br />
+            service. Without the protocols in a language the data it sends back is unreadable and confusing –– you can't parse it in a traditional format. <br />
+            Which is super annoying to work with - no strings until the data is passed through the protocol. I have to run it through a python or use a C#<br />
+            script library in order to work with the augmented reality project I setup in Unity. </p>
+            <img src="images/mtaApiData.png" width="1100px" height="588px" alt="apikeyemail"/>
       <li>Nov 2</li>
+              <h2>Making Protocols Work within Unity</h2>
+              <p>The framework that I use in Unity to send/retrieve requests from is WWW. It's a basic framework and can't do as much post-processing on the <br />
+              request as much as I would like. I started to install the Protocol buffer for C# into my unity project. This should help get the information from <br /> 
+              the data so it doesn't look like gibberish. Unity's code isn't easy to work with especially for me because I'm used to working with full-scale languages<br />
+              where Unity's version of C# is just scripting so it doesn't have full access or functionality. It's taking me some time to get the data into my project <br />
+              correctly. It also doesn't help that the MTA has weird data attributes and working in Unity.</p>
+              <img src="images/unityWWW.png" width="600px" height="333px" alt="Unity WWW Reference"/>
       <li>Nov 9</li>
       <li>Nov 16</li>
       <li>Nov 23</li>
