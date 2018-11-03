@@ -18,6 +18,15 @@ h1 {
   margin-left: 5%;
 }
 
+a:link {
+  color: #fffff0;
+}
+
+/* .link {
+  color: #fffff0;
+  
+} */
+
 .prototype {
   color: #202229;
   background-color: #fffff0;
