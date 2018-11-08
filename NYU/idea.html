@@ -17,6 +17,14 @@
   because I created a <a href="http://noisehub.co">social network for music, called NoiseHub.</a> The idea to change<br />
   the way people listen to music happened shortly after I moved to NYC (at the same time classes started). This will live<br />
   in a brand new tab in the app. It will be prototyped as a second app until it's ready to be added to the social network app.</p>
+  <br /><br />
+  <h2 class="nyu_subtitle">Project Documents</h2>
+  <ul class="list">
+    <li><a href="https://docs.google.com/document/d/1cTG7M1WngqxQ9WAdWAgA67T1kYKRD5ySDFzEdF2JEaA/edit?usp=sharing">Project Timeline</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1gazeaTTuw4OtwGf9delz8-JekCQixVkPOuLCt5PusDk/edit?usp=sharing">Budget/Expenses</a></li>
+    <li><a href="https://docs.google.com/document/d/1EpeTCKYS8gb118pcnbRTR0hHzk7ghHH6qvs_3wlQFC4/edit?usp=sharing">Elevator Pitch</a></li> 
+  </ul> 
+
   <h4 class="text">Mind Map of the Idea:</h4>
   <img src="images/ConceptMap.jpeg" height="585px" width="800px" class="text"/>
   <br /><br /><br />
@@ -49,56 +57,56 @@
         <img src="images/gather.jpeg" width="600px" height="450px" alt="subway sign for F, A, and C trains" />
         <img src="images/gather1.jpeg" width="600px" height="450px" alt="exit sign to myrtle promenade" /> 
       <li>Sept 28</li>
-          <h2>Gathering Recources Pt. 2</h2>
-          <p>I started cropping photos in a way that we could make 9/10 signs in every subway<br />
-          scannable. The photos need to be original and recognizeable. The MTA has similar graphic<br />
-          language throughout everything in the subway, so we can do a quick test on how the graphics can <br />
-          recognized and pull information. So I started working on a prototype using the MetroCard to see if<br />
-          the phone can scan a target and get information.</p> 
-          <h4>Cropped Image for Recognition, So that All Signs Will Be Recognizeable</h4>
-          <img src="images/gather2.jpeg" width="700px" height="57px" alt="cropped F train image" />
+        <h2>Gathering Recources Pt. 2</h2>
+        <p>I started cropping photos in a way that we could make 9/10 signs in every subway<br />
+        scannable. The photos need to be original and recognizeable. The MTA has similar graphic<br />
+        language throughout everything in the subway, so we can do a quick test on how the graphics can <br />
+        recognized and pull information. So I started working on a prototype using the MetroCard to see if<br />
+        the phone can scan a target and get information.</p> 
+        <h4>Cropped Image for Recognition, So that All Signs Will Be Recognizeable</h4>
+        <img src="images/gather2.jpeg" width="700px" height="57px" alt="cropped F train image" />
       <li>Oct 5</li>
-          <h2>Proof Of Concept with Augmented Reality</h2>
-          <p>I wanted to start the development for the project, to make the common graphics used throughout the <br />
-          MTA's materials. I built a Unity project with Vuforia Cloud Recognition Services and trained it to recognize<br />
-          the common MTA card. This will be really easy to build off of for the subway signs inside. Shows that the technology<br />
-          is useful and totally doable.
-          </p>
-          <h4>Cropped training AR recognition image</h4>
-          <img src="images/metrocard.jpeg" width="400px" height="282px" alt="metrocard image" />
-          <p>This was cropped like this because it couldn't have anything behind in the scene. If you had some of the scene in <br />
-          the background then you could only find it once you were in that scene from that specific angle. This was the actual picture<br />
-          used to train the image recognition in the app. This is a proof of concept before I move to signs in the subway for next week.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/avaWQkjRqus" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2>Proof Of Concept with Augmented Reality</h2>
+        <p>I wanted to start the development for the project, to make the common graphics used throughout the <br />
+        MTA's materials. I built a Unity project with Vuforia Cloud Recognition Services and trained it to recognize<br />
+        the common MTA card. This will be really easy to build off of for the subway signs inside. Shows that the technology<br />
+        is useful and totally doable.
+        </p>
+        <h4>Cropped training AR recognition image</h4>
+        <img src="images/metrocard.jpeg" width="400px" height="282px" alt="metrocard image" />
+        <p>This was cropped like this because it couldn't have anything behind in the scene. If you had some of the scene in <br />
+        the background then you could only find it once you were in that scene from that specific angle. This was the actual picture<br />
+        used to train the image recognition in the app. This is a proof of concept before I move to signs in the subway for next week.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/avaWQkjRqus" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <li>Oct 12</li>
-            <h2>Scavenging Stations Data</h2>
-            <p>The MTA has certain data standards they want anyone using their API to uphold. I started to go through the registration process<br />
-            The data is pretty overwhelming and they have more than just subway data, they have LIRR, and public buses. (Practically <br />
-            anything form of transportation in NYC) It's a lot to make sense of, and I've started to go through it so I can connect it <br />
-            to the App via RESTAPI asking only what I need and in the form of a JSON response. Google also has their transit API which is now<br />
-            apart of the MTA database. <a href="http://datamine.mta.info/">Data Mine @ MTA</a> </p>
+        <h2>Scavenging Stations Data</h2>
+        <p>The MTA has certain data standards they want anyone using their API to uphold. I started to go through the registration process<br />
+        The data is pretty overwhelming and they have more than just subway data, they have LIRR, and public buses. (Practically <br />
+        anything form of transportation in NYC) It's a lot to make sense of, and I've started to go through it so I can connect it <br />
+        to the App via RESTAPI asking only what I need and in the form of a JSON response. Google also has their transit API which is now<br />
+        apart of the MTA database. <a href="http://datamine.mta.info/">Data Mine @ MTA</a> </p>
       <li>Oct 19</li>
-            <h2>Starting Use with GTFS</h2>
-            <p>This proved to be more difficult than I first thought. In order to get the mta data from their database it's delivered from protocols.<br />
-            They're kind of tricky to work with because they're not desinged for any specific language or framework. It also took a long time to get a response<br />
-            from the MTA regarding my registration key. I first signed up and looked at all the guides for working with the protocols. It's hard to understand <br />
-            so I went through the documentation and examples to understand how to work with the data.</p>
-            <img src="images/subwayLinesDocumenation.png" width="800px" height="831px" alt="subway lines documentation"/>
+        <h2>Starting Use with GTFS</h2>
+        <p>This proved to be more difficult than I first thought. In order to get the mta data from their database it's delivered from protocols.<br />
+        They're kind of tricky to work with because they're not desinged for any specific language or framework. It also took a long time to get a response<br />
+        from the MTA regarding my registration key. I first signed up and looked at all the guides for working with the protocols. It's hard to understand <br />
+        so I went through the documentation and examples to understand how to work with the data.</p>
+        <img src="images/subwayLinesDocumenation.png" width="800px" height="831px" alt="subway lines documentation"/>
       <li>Oct 26</li>
-            <h2>Official API Key</h2>
-            <p>This week I recieved a key to gather real data from the Subway API. Each subway line gets new and individual data sets that are sent to my <br />
-            service. Without the protocols in a language the data it sends back is unreadable and confusing –– you can't parse it in a traditional format. <br />
-            Which is super annoying to work with - no strings until the data is passed through the protocol. I have to run it through a python or use a C#<br />
-            script library in order to work with the augmented reality project I setup in Unity. </p>
-            <img src="images/mtaApiData.png" width="1100px" height="588px" alt="apikeyemail"/>
+        <h2>Official API Key</h2>
+        <p>This week I recieved a key to gather real data from the Subway API. Each subway line gets new and individual data sets that are sent to my <br />
+        service. Without the protocols in a language the data it sends back is unreadable and confusing –– you can't parse it in a traditional format. <br />
+        Which is super annoying to work with - no strings until the data is passed through the protocol. I have to run it through a python or use a C#<br />
+        script library in order to work with the augmented reality project I setup in Unity. </p>
+        <img src="images/mtaApiData.png" width="1100px" height="588px" alt="apikeyemail"/>
       <li>Nov 2</li>
-              <h2>Making Protocols Work within Unity</h2>
-              <p>The framework that I use in Unity to send/retrieve requests from is WWW. It's a basic framework and can't do as much post-processing on the <br />
-              request as much as I would like. I started to install the Protocol buffer for C# into my unity project. This should help get the information from <br /> 
-              the data so it doesn't look like gibberish. Unity's code isn't easy to work with especially for me because I'm used to working with full-scale languages<br />
-              where Unity's version of C# is just scripting so it doesn't have full access or functionality. It's taking me some time to get the data into my project <br />
-              correctly. It also doesn't help that the MTA has weird data attributes and working in Unity.</p>
-              <img src="images/unityWWW.png" width="600px" height="333px" alt="Unity WWW Reference"/>
+        <h2>Making Protocols Work within Unity</h2>
+        <p>The framework that I use in Unity to send/retrieve requests from is WWW. It's a basic framework and can't do as much post-processing on the <br />
+        request as much as I would like. I started to install the Protocol buffer for C# into my unity project. This should help get the information from <br /> 
+        the data so it doesn't look like gibberish. Unity's code isn't easy to work with especially for me because I'm used to working with full-scale languages<br />
+        where Unity's version of C# is just scripting so it doesn't have full access or functionality. It's taking me some time to get the data into my project <br />
+        correctly. It also doesn't help that the MTA has weird data attributes and working in Unity.</p>
+        <img src="images/unityWWW.png" width="600px" height="333px" alt="Unity WWW Reference"/>
       <li>Nov 9</li>
       <li>Nov 16</li>
       <li>Nov 23</li>
